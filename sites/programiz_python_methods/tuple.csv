@@ -1,3 +1,0 @@
-,method,description
-0,count(),returns occurrences of element in a tuple
-1,index(),returns smallest index of element in tuple

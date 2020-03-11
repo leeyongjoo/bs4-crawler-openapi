@@ -17,13 +17,15 @@ def get_google_translate_list(textENList, dest='ko'):
 """
 네이버 Papago NMT API 이용
 """
-import requests
+import requests, os
 # 파파고 API 설정
 PAPAGO_CLIENT_ID = ''
 PAPAGO_CLIENT_SECRET = ''
 
 # papago_client_info.config 파일에서 설정값 가져오기(설정값 노출 방지)
-with open('papago_client_info.config') as f:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CONFIG_NAME = 'papago_client_info.config'
+with open(BASE_DIR + '\\' + CONFIG_NAME) as f:
     content = f.read().split()
     PAPAGO_CLIENT_ID = content[0]
     PAPAGO_CLIENT_SECRET = content[1]

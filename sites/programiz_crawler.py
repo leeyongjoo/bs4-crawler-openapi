@@ -36,11 +36,37 @@ def method_crawling(dataType):
 
 if __name__ == "__main__":
     import pandas as pd
+    from mod.translates import get_nmt_translate, get_google_translate_list
 
+    CSV_ENCODING = 'utf-8'
+
+    ###################
+    # PAPAGO NMT 번역 #
+    ###################
     for dataType in dataTypes:
         method_description_list = method_crawling(dataType)
+        result_list = []
+        for m, d in method_description_list:
+            result_list.append((m, d, get_nmt_translate(d)))
 
-        data = pd.DataFrame(method_description_list)
-        data.columns = ['method', 'description']
-        data.to_csv('programiz_python_methods/'
-                    + dataType + '.csv', encoding='cp949')
+        data = pd.DataFrame(result_list)
+        data.columns = ['method', 'description_english', 'description_korean']
+        data.to_csv('programiz_python_methods/nmt/'
+                    + dataType + '_' + CSV_ENCODING + '.csv', encoding=CSV_ENCODING)
+
+    ###############
+    # GOOGLE 번역 #
+    ###############
+    for dataType in dataTypes:
+        method_description_list = method_crawling(dataType)
+        description_KR_list = get_google_translate_list([_[1] for _ in method_description_list])
+
+        result_list = []
+        for i, md in enumerate(method_description_list):
+            m, d = md
+            result_list.append((m, d, description_KR_list[i]))
+
+        data = pd.DataFrame(result_list)
+        data.columns = ['method', 'description_english', 'description_korean']
+        data.to_csv('programiz_python_methods/google/'
+                    + dataType + '_' + CSV_ENCODING + '.csv', encoding=CSV_ENCODING)
