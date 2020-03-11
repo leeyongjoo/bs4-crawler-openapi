@@ -1,0 +1,12 @@
+,method,description_english,description_korean
+0,clear(),Removes all Items,모든 항목 제거
+1,copy(),Returns Shallow Copy of a Dictionary,얕은 사전 사본 반환
+2,fromkeys(),creates dictionary from given sequence,주어진 순서에 따라 사전을 만들다.
+3,get(),Returns Value of The Key,키의 반환 값
+4,items(),"returns view of dictionary's (key, value) pair","사전의 (키, 값) 쌍 보기 반환"
+5,keys(),Returns View Object of All Keys,모든 키의 보기 개체 반환
+6,popitem(),Returns & Removes Element From Dictionary,사전에서 요소 반환 및 제거
+7,setdefault(),Inserts Key With a Value if Key is not Present,키가 없을 경우 값이 있는 키 삽입
+8,pop(),removes and returns element having given key,지정된 키를 가진 요소 제거 및 반환
+9,values(),returns view of all values in dictionary,사전의 모든 값 보기 반환
+10,update(),Updates the Dictionary,사전 업데이트
