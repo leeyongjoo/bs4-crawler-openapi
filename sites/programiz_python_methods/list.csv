@@ -1,0 +1,12 @@
+,method,description
+0,append(),Add a single element to the end of the list
+1,extend(),Add Elements of a List to Another List
+2,insert(),Inserts Element to The List
+3,remove(),Removes item from the list
+4,index(),returns smallest index of element in list
+5,count(),returns occurrences of element in a list
+6,pop(),Removes element at the given index
+7,reverse(),Reverses a List
+8,sort(),sorts elements of a list
+9,copy(),Returns Shallow Copy of a List
+10,clear(),Removes all Items from the List
