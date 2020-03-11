@@ -1,0 +1,12 @@
+,method,description_english,description_korean
+0,append(),Add a single element to the end of the list,목록 끝에 단일 요소 추가
+1,extend(),Add Elements of a List to Another List,리스트의 요소를 다른리스트에 추가
+2,insert(),Inserts Element to The List,요소를 목록에 삽입
+3,remove(),Removes item from the list,목록에서 항목을 제거합니다
+4,index(),returns smallest index of element in list,리스트에서 원소의 가장 작은 인덱스를 반환
+5,count(),returns occurrences of element in a list,리스트에서 요소의 발생을 반환
+6,pop(),Removes element at the given index,주어진 인덱스에서 요소를 제거
+7,reverse(),Reverses a List,리스트를 반대로
+8,sort(),sorts elements of a list,리스트의 요소를 정렬
+9,copy(),Returns Shallow Copy of a List,목록의 얕은 복사본을 반환
+10,clear(),Removes all Items from the List,목록에서 모든 항목을 제거합니다

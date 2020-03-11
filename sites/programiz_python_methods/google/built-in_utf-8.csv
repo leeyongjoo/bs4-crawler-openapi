@@ -1,0 +1,69 @@
+,method,description_english,description_korean
+0,abs(),returns absolute value of a number,숫자의 절대 값을 반환
+1,any(),Checks if any Element of an Iterable is True,Iterable의 요소가 True인지 확인
+2,all(),returns true when all elements in iterable is true,iterable의 모든 요소가 true 인 경우 true를 리턴합니다.
+3,ascii(),Returns String Containing Printable Representation,인쇄 가능한 표현을 포함하는 문자열을 반환
+4,bin(),converts integer to binary string,정수를 이진 문자열로 변환
+5,bool(),Converts a Value to Boolean ,값을 부울로 변환
+6,bytearray(),returns array of given byte size,주어진 바이트 크기의 배열을 반환
+7,callable(),Checks if the Object is Callable,객체가 호출 가능한지 확인
+8,bytes(),returns immutable bytes object,불변의 바이트 객체를 돌려줍니다
+9,chr(),Returns a Character (a string) from an Integer,정수에서 문자 (문자열)를 반환합니다
+10,compile(),Returns a Python code object,파이썬 코드 객체를 반환
+11,classmethod(),returns class method for given function,주어진 함수에 대한 클래스 메소드를 반환
+12,complex(),Creates a Complex Number,복소수 생성
+13,delattr(),Deletes Attribute From the Object,객체에서 속성을 삭제합니다
+14,dict(),Creates a Dictionary,사전을 만듭니다
+15,dir(),Tries to Return Attributes of Object,객체의 속성을 반환하려고 시도
+16,divmod(),Returns a Tuple of Quotient and Remainder,몫과 나머지의 튜플을 반환합니다
+17,enumerate(),Returns an Enumerate Object,열거 객체를 돌려줍니다
+18,staticmethod(),transforms a method into a static method,메소드를 정적 메소드로 변환
+19,filter(),constructs iterator from elements which are true,진정한 요소에서 반복자를 구성합니다.
+20,eval(),Runs Python Code Within Program,프로그램 내에서 Python 코드 실행
+21,float(),"returns floating point number from number, string","숫자, 문자열에서 부동 소수점 숫자를 반환"
+22,format(),returns formatted representation of a value,값의 형식화 된 표현을 리턴합니다.
+23,frozenset(),returns immutable frozenset object,불변의 고정 된 객체를 반환
+24,getattr(),returns value of named attribute of an object,객체의 명명 된 속성 값을 반환
+25,globals(),returns dictionary of current global symbol table,현재 전역 심볼 테이블의 사전을 반환합니다.
+26,exec(),Executes Dynamically Created Program,동적으로 생성 된 프로그램 실행
+27,hasattr(),returns whether object has named attribute,객체의 이름이 속성인지를 반환
+28,help(),Invokes the built-in Help System,내장 된 도움말 시스템을 호출합니다
+29,hex(),Converts to Integer to Hexadecimal,정수로 변환하여 16 진수로 변환
+30,hash(),returns hash value of an object,객체의 해시 값을 반환
+31,input(),reads and returns a line of string,문자열을 읽고 리턴합니다.
+32,id(),Returns Identify of an Object,객체 식별 반환
+33,isinstance(),Checks if a Object is an Instance of Class,객체가 클래스의 인스턴스인지 확인
+34,int(),returns integer from a number or string,숫자 나 문자열에서 정수를 반환
+35,issubclass(),Checks if a Object is Subclass of a Class,객체가 클래스의 서브 클래스인지 확인
+36,iter(),returns an iterator,반복자를 반환
+37,list(),creates a list in Python,파이썬에서 목록을 만듭니다
+38,locals(),Returns dictionary of a current local symbol table,현재 지역 심볼 테이블의 사전을 반환
+39,len(),Returns Length of an Object,객체의 길이를 반환
+40,max(),returns the largest item,가장 큰 항목을 반환
+41,min(),returns the smallest value,가장 작은 값을 반환
+42,map(),Applies Function and Returns a List,함수를 적용하고 목록을 반환
+43,next(),Retrieves next item from the iterator,반복자에서 다음 항목을 검색합니다
+44,memoryview(),returns memory view of an argument,인수의 메모리 뷰를 반환
+45,object(),creates a featureless object,특징없는 객체를 만듭니다.
+46,oct(),returns the octal representation of an integer,정수의 8 진 표현을 리턴합니다.
+47,ord(),returns an integer of the Unicode character,유니 코드 문자의 정수를 반환
+48,open(),Returns a file object,파일 객체를 반환
+49,pow(),returns the power of a number,숫자의 거듭 제곱을 반환합니다
+50,print(),Prints the Given Object,주어진 객체를 인쇄합니다
+51,property(),returns the property attribute,속성 속성을 반환
+52,range(),return sequence of integers between start and stop,시작과 중지 사이의 정수 시퀀스를 반환
+53,repr(),returns a printable representation of the object,객체의 인쇄 가능한 표현을 돌려줍니다
+54,reversed(),returns the reversed iterator of a sequence,시퀀스의 역 반복자를 반환
+55,round(),rounds a number to specified decimals,숫자를 지정된 소수로 반올림합니다.
+56,set(),constructs and returns a set,집합을 구성하고 반환
+57,setattr(),sets the value of an attribute of an object,객체의 속성 값을 설정합니다
+58,slice(),returns a slice object,슬라이스 객체를 돌려줍니다
+59,sorted(),returns a sorted list from the given iterable,주어진 iterable에서 정렬 된 목록을 반환
+60,str(),returns the string version of the object,객체의 문자열 버전을 반환
+61,sum(),Adds items of an Iterable,Iterable의 항목을 추가합니다
+62,tuple(),Returns a tuple,튜플을 반환
+63,type(),Returns the type of the object,객체의 타입을 반환
+64,vars(),Returns the __dict__ attribute,__dict__ 속성을 반환
+65,zip(),Returns an iterator of tuples,튜플의 반복자를 반환
+66,__import__(),Function called by the import statement,import 문에서 호출 한 함수
+67,super(),Returns a proxy object of the base class,기본 클래스의 프록시 객체를 반환
