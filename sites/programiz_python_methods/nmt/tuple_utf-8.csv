@@ -1,0 +1,3 @@
+,method,description_english,description_korean
+0,count(),returns occurrences of element in a tuple,tuple에서 원소의 반환
+1,index(),returns smallest index of element in tuple,원소의 가장 작은 색인을 tuple로 반환하다.

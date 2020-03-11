@@ -1,0 +1,18 @@
+,method,description_english,description_korean
+0,remove(),Removes Element from the Set,세트에서 요소를 제거합니다
+1,add(),adds element to a set,세트에 요소를 추가
+2,copy(),Returns Shallow Copy of a Set,집합의 얕은 복사본을 반환
+3,clear(),remove all elements from a set,세트에서 모든 요소를 제거
+4,difference(),Returns Difference of Two Sets,두 세트의 차이를 반환
+5,difference_update(),Updates Calling Set With Intersection of Sets,집합의 교차로 집합 호출 업데이트
+6,discard(),Removes an Element from The Set,세트에서 요소를 제거합니다
+7,intersection(),Returns Intersection of Two or More Sets,둘 이상의 집합의 교집합을 반환
+8,intersection_update(),Updates Calling Set With Intersection of Sets,집합의 교차로 집합 호출 업데이트
+9,isdisjoint(),Checks Disjoint Sets,분리 세트 점검
+10,issubset(),Checks if a Set is Subset of Another Set,세트가 다른 세트의 서브 세트인지 확인
+11,issuperset(),Checks if a Set is Superset of Another Set,세트가 다른 세트의 상위 세트인지 확인
+12,pop(),Removes an Arbitrary Element,임의의 요소를 제거합니다
+13,symmetric_difference(),Returns the symmetric difference of sets,세트의 대칭 차이를 반환합니다
+14,symmetric_difference_update(),Updates the Set with symmetric difference,대칭 차이로 세트를 업데이트합니다
+15,union(),Returns the union of sets,집합의 합집합을 반환
+16,update(),Add elements to the set,세트에 요소 추가

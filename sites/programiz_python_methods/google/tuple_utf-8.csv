@@ -1,0 +1,3 @@
+,method,description_english,description_korean
+0,count(),returns occurrences of element in a tuple,튜플에서 요소의 발생을 반환
+1,index(),returns smallest index of element in tuple,튜플에서 요소의 가장 작은 인덱스를 반환

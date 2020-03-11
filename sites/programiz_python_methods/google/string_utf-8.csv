@@ -1,0 +1,45 @@
+,method,description_english,description_korean
+0,capitalize(),Converts first character to Capital Letter,첫 문자를 대문자로 변환
+1,center(),Pads string with specified character,지정된 문자로 문자열을 채 웁니다.
+2,casefold(),converts to casefolded strings,casefolded 문자열로 변환
+3,count(),returns occurrences of substring in string,문자열에서 부분 문자열의 발생을 반환
+4,endswith(),Checks if String Ends with the Specified Suffix,문자열이 지정된 접미어로 끝나는 지 확인
+5,expandtabs(),Replaces Tab character With Spaces,탭 문자를 공백으로 바꿉니다.
+6,encode(),returns encoded string of given string,주어진 문자열의 인코딩 된 문자열을 반환
+7,find(),Returns the index of first occurrence of substring,부분 문자열이 처음 나타나는 색인을 반환합니다
+8,format(),formats string into nicer output,더 나은 출력으로 문자열 형식화
+9,index(),Returns Index of Substring,부분 문자열의 인덱스를 반환
+10,isalnum(),Checks Alphanumeric Character,영숫자를 확인합니다
+11,isalpha(),Checks if All Characters are Alphabets,모든 문자가 알파벳인지 확인
+12,isdecimal(),Checks Decimal Characters,십진수 문자 확인
+13,isdigit(),Checks Digit Characters,숫자 문자 확인
+14,isidentifier(),Checks for Valid Identifier,유효한 식별자 확인
+15,islower(),Checks if all Alphabets in a String are Lowercase,문자열의 모든 알파벳이 소문자인지 확인
+16,isnumeric(),Checks Numeric Characters,숫자 문자 확인
+17,isprintable(),Checks Printable Character,인쇄 가능한 문자 확인
+18,isspace(),Checks Whitespace Characters,공백 문자 확인
+19,istitle(),Checks for Titlecased String,제목 문자열 확인
+20,isupper(),returns if all characters are uppercase characters,모든 문자가 대문자 인 경우 반환
+21,join(),Returns a Concatenated String,연결된 문자열을 반환
+22,ljust(),returns left-justified string of given width,주어진 너비의 왼쪽 정렬 문자열을 반환
+23,rjust(),returns right-justified string of given width,주어진 너비의 오른쪽 정렬 문자열을 반환
+24,lower(),returns lowercased string,소문자 문자열을 반환
+25,upper(),returns uppercased string,대문자 문자열을 반환
+26,swapcase(),swap uppercase characters to lowercase; vice versa,대문자를 소문자로 바꾸십시오. 반대의 경우도 마찬가지
+27,lstrip(),Removes Leading Characters,선행 문자 제거
+28,rstrip(),Removes Trailing Characters,후행 문자 제거
+29,strip(),Removes Both Leading and Trailing Characters,선행 및 후행 문자를 모두 제거
+30,partition(),Returns a Tuple,튜플을 반환
+31,maketrans(),returns a translation table,번역 표를 돌려줍니다
+32,rpartition(),Returns a Tuple,튜플을 반환
+33,translate(),returns mapped charactered string,맵핑 된 문자 스트링을 리턴합니다.
+34,replace(),Replaces Substring Inside,하위 문자열을 내부로 대체
+35,rfind(),Returns the Highest Index of Substring,부분 문자열의 최고 인덱스를 반환
+36,rindex(),Returns Highest Index of Substring,부분 문자열의 최고 인덱스를 반환
+37,split(),Splits String from Left,문자열을 왼쪽에서 분할
+38,rsplit(),Splits String From Right,문자열을 오른쪽에서 분할
+39,splitlines(),Splits String at Line Boundaries,줄 경계에서 문자열 분할
+40,startswith(),Checks if String Starts with the Specified String,문자열이 지정된 문자열로 시작하는지 확인
+41,title(),Returns a Title Cased String,제목이 지정된 문자열을 반환
+42,zfill(),Returns a Copy of The String Padded With Zeros ,0으로 채워진 문자열의 복사본을 반환
+43,format_map(),Formats the String Using Dictionary,사전을 사용하여 문자열 형식화
