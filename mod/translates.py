@@ -24,7 +24,8 @@ PAPAGO_CLIENT_SECRET = ''
 
 # papago_client_info.config 파일에서 설정값 가져오기(설정값 노출 방지)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-with open(BASE_DIR + 'papago_client_info.config') as f:
+CONFIG_NAME = 'papago_client_info.config'
+with open(BASE_DIR + '\\' + CONFIG_NAME) as f:
     content = f.read().split()
     PAPAGO_CLIENT_ID = content[0]
     PAPAGO_CLIENT_SECRET = content[1]
@@ -42,9 +43,5 @@ def get_nmt_translate(text, source='en', target='ko'):
     result = response.json()
     return result['message']['result']['translatedText']
 
-
 if __name__ == "__main__":
-
-
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    print(BASE_DIR)
+    pass
