@@ -1,6 +1,5 @@
 # bs4-crawler-openapi
 BeautifulSoup를 이용하여 구현한 파이썬 크롤러
-> 사이트에 적힌 메서드들을 수집하여 번역 후에 csv로 저장
 
 파이썬을 공부하며 Notion에 정리하던 중에 메서드를 정리해놓으면 좋겠다고 생각하여  
 적당한 자료를 찾아보다가 [programiz](https://www.programiz.com/) 사이트를 찾게 되었음
@@ -9,6 +8,8 @@ BeautifulSoup를 이용하여 구현한 파이썬 크롤러
 
 메서드는 잘 정리되어 있으나 설명이 영문이라는 점과 일일이 복사 붙여넣기 하기 번거로움이 존재하여  
 이를 해결해 줄 소스코드 구현
+
+**해당 사이트에 나열되어 있는 메서드들을 수집하여 번역 후에 csv로 저장**
 
 ## Installation
 [pip](https://pip.pypa.io/en/stable/)를 이용하여 라이브러리 설치 *Python Version: 3.8*
